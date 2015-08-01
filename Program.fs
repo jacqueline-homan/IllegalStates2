@@ -1,32 +1,37 @@
 ﻿open System
 
+type MarketSide =
+    | Bid
+    | AskS
+
+type Originator =
+    | Trader of Id : int
+    | Broker of Id : int
+
 type Price =
     { Id : int
       Ticker : string
-      Side : int
+      Side : MarketSide
       Price : decimal
-      TraderId : int option
-      BrokerId : int option }
+      Originator : Originator }
+
+
 
 let goodPrice =
     { Id = 1
       Ticker = "GOOG"
-      Side = 1
+      Side = Bid
       Price = 551.76M
-      TraderId = Some 16
-      BrokerId = None }
+      Originator = Trader 16 }
 
 let badPrice =
     { Id = 1
       Ticker = ""
-      Side = 3
+      Side = Bid
       Price = 551.76M
-      TraderId = None
-      BrokerId = None }
+      Originator = Broker 32 }
 
-type MarketSide =
-    | Bid
-    | Ask
+
 
 
 
