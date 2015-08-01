@@ -1,0 +1,5 @@
+/home/jacqueline/Projects/IllegalStateEx2/IllegalStateEx2/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/home/jacqueline/Projects/IllegalStateEx2/IllegalStateEx2/bin/Debug/IllegalStateEx2.exe.mdb
+/home/jacqueline/Projects/IllegalStateEx2/IllegalStateEx2/bin/Debug/IllegalStateEx2.exe
+/home/jacqueline/Projects/IllegalStateEx2/IllegalStateEx2/obj/x86/Debug/IllegalStateEx2.exe
+/home/jacqueline/Projects/IllegalStateEx2/IllegalStateEx2/obj/x86/Debug/IllegalStateEx2.exe.mdb
